@@ -1,16 +1,13 @@
 using UnityEngine;
 
-public class House : MonoBehaviour
+public class House : Buildings
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public void Start()
     {
-        
+        base.Init("House", 100, 10, 10, 80);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+   
 }
