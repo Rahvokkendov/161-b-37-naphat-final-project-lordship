@@ -1,0 +1,923 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156398299553577871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 7438181202955686163}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116550923462814212}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116550923462814212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 7438181202955686163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156398299553577871}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.215401, y: -0.36615282, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &293778001794741254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2340313896847234767}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5648752375368830833}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5648752375368830833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2340313896847234767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293778001794741254}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.21540096, y: -0.36615282, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2407391320990451764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 3204689201548558362}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8381044651962352847}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8381044651962352847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 3204689201548558362}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407391320990451764}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.215401, y: 0.6338472, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2974043988480524148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 5126289975295638008}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736556484049535515}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736556484049535515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 5126289975295638008}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2974043988480524148}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.215401, y: 0.6338472, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4897662376416738331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001625624546960345}
+  m_Layer: 0
+  m_Name: HouseSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001625624546960345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897662376416738331}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.21540096, y: -0.6338472, z: 0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8381044651962352847}
+  - {fileID: 1736556484049535515}
+  - {fileID: 946707920670098995}
+  - {fileID: 8656972626716563733}
+  - {fileID: 1195907798906037497}
+  - {fileID: 1422095868083616778}
+  - {fileID: 5648752375368830833}
+  - {fileID: 5236431704288182215}
+  - {fileID: 5888635176922870025}
+  - {fileID: 6116550923462814212}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5024679593590153080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2942913584262157067}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8656972626716563733}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8656972626716563733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2942913584262157067}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5024679593590153080}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.21540096, y: 0.6338472, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6441350687022068121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 4925242699015190048}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195907798906037497}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195907798906037497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 4925242699015190048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441350687022068121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.78459907, y: 0.6338472, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7157270656555478170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2239205857206642654}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5888635176922870025}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5888635176922870025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 2239205857206642654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157270656555478170}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.215401, y: -0.36615282, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7639614820254130392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 7459422898767866016}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946707920670098995}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &946707920670098995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 7459422898767866016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7639614820254130392}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.2154009, y: 0.6338472, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7693404084041135480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 5838160213105514664}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422095868083616778}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422095868083616778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 5838160213105514664}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7693404084041135480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.78459907, y: -0.36615282, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9198181972689577651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 1152143634156640648}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5236431704288182215}
+  m_Layer: 0
+  m_Name: HouseSpawnPoint (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5236431704288182215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+  m_PrefabInstance: {fileID: 1152143634156640648}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198181972689577651}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.2154009, y: -0.36615282, z: -0.115914814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1001625624546960345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1152143634156640648
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2154009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36615282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &2239205857206642654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.215401
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36615282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &2340313896847234767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.21540096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36615282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &2942913584262157067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.21540096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6338472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &3204689201548558362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.215401
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6338472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &4925242699015190048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.78459907
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6338472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &5126289975295638008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.215401
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6338472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &5838160213105514664
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.78459907
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36615282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &7438181202955686163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.215401
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36615282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+--- !u!1001 &7459422898767866016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1001625624546960345}
+    m_Modifications:
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2154009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6338472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.115914814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216529322450370734, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8661002425670077108, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}
+      propertyPath: m_Name
+      value: HouseSpawnPoint (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe7af87b1444d5489a08af5aa3572e3, type: 3}

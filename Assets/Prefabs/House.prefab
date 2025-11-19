@@ -175,3 +175,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 969ff5daf99d1e6498970e98e5df7bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  houseSpawnParent: {fileID: 1001625624546960345, guid: d746a45fa73319a469632cdb6be49991, type: 3}
