@@ -2,17 +2,22 @@ using UnityEngine;
 
 public abstract class Buildings : MonoBehaviour
 {
-    public string BuildingName { get; private set; }
-   
-    public int GoldRequire { get; private set; }
 
-    public int FoodRequire { get; private set; }
-   
-    public int MaxBuild { get; private set; }
+    [field: SerializeField] protected Transform spawnParent;
+    [field: SerializeField] protected GameObject buildingPrefab;
 
-    public int CurrentBuild { get; private set; }
+    public string BuildingName { get; protected set; }
+   
+    public int GoldRequire { get; protected set; }
+
+    public int FoodRequire { get; protected set; }
+   
+    public int MaxBuild { get; protected set; }
+
+    public int CurrentBuild { get; private set; } = 0;
     public int TaxOutput { get; private set; }
 
+    private int spawnIndex = 0;
 
     public void Init(string buildingType, int goldReq, int foodReq, int buildMax, int tax)
     {
@@ -23,18 +28,46 @@ public abstract class Buildings : MonoBehaviour
         TaxOutput = tax;
     }
 
-    public abstract void Build();
-
-
-    public abstract void Build(int buildAmount);
-
-    public bool MaxBuildingCheck()
+    public void Build()
     {
-        if (CurrentBuild == MaxBuild)
+        if (spawnParent.childCount == 0) return;
+        
+
+        Transform spawnPoint = spawnParent.GetChild(spawnIndex);
+
+        Instantiate(buildingPrefab, spawnPoint.position, spawnPoint.rotation);
+        CurrentBuild++;
+        spawnIndex = (spawnIndex + 1) % spawnParent.childCount;
+
+    }
+
+
+    public void Build(int buildAmount)
+    {
+        if (buildAmount > MaxBuild)
         {
-            return true;
+            buildAmount = MaxBuild;
+            for (int i = 0; i < buildAmount; i++)
+            {
+
+                Build();
+
+            }
         }
-        else return false;
+        else
+        {
+            for (int i = 0; i < buildAmount; i++)
+            {
+
+                Build();
+
+            }
+        }
+    }
+
+    public void DebugShow()
+    {
+        Debug.Log($"N{BuildingName}, G{GoldRequire}, F{FoodRequire}, Mb{MaxBuild}, T{TaxOutput}");
     }
 
 }

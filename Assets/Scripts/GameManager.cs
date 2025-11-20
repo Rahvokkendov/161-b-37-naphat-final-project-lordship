@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        listBuilding[0].Build();
+        listBuilding[0].Init("House", 100, 10, 10, 80);
+        listBuilding[0].DebugShow();
+        listBuilding[0].Build(15);
     }
 
     // Update is called once per frame
