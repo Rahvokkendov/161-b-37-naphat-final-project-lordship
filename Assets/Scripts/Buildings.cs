@@ -14,10 +14,15 @@ public abstract class Buildings : MonoBehaviour
    
     public int MaxBuild { get; protected set; }
 
-    public int CurrentBuild { get; private set; } = 0;
-    public int TaxOutput { get; private set; }
+    public int CurrentBuild { get; private set; }
+    public int TaxOutput { get; protected set; }
 
     private int spawnIndex = 0;
+
+    void Start()
+    {
+        CurrentBuild = 0;
+    }
 
     public void Init(string buildingType, int goldReq, int foodReq, int buildMax, int tax)
     {
@@ -31,13 +36,17 @@ public abstract class Buildings : MonoBehaviour
     public void Build()
     {
         if (spawnParent.childCount == 0) return;
-        
 
         Transform spawnPoint = spawnParent.GetChild(spawnIndex);
 
-        Instantiate(buildingPrefab, spawnPoint.position, spawnPoint.rotation);
-        CurrentBuild++;
-        spawnIndex = (spawnIndex + 1) % spawnParent.childCount;
+        if (CurrentBuild <= MaxBuild && CurrentBuild !> MaxBuild)
+        {
+            
+            Instantiate(buildingPrefab, spawnPoint.position, spawnPoint.rotation);
+            spawnIndex = (spawnIndex + 1) % spawnParent.childCount;
+            CurrentBuild++;
+        }
+        else return;
 
     }
 
@@ -67,7 +76,9 @@ public abstract class Buildings : MonoBehaviour
 
     public void DebugShow()
     {
-        Debug.Log($"N{BuildingName}, G{GoldRequire}, F{FoodRequire}, Mb{MaxBuild}, T{TaxOutput}");
+        Debug.Log($"N{BuildingName}, G{GoldRequire}, F{FoodRequire}, Mb{MaxBuild}, T{TaxOutput}, Cb{CurrentBuild}");
     }
 
+
+    public abstract int BuildingOutput(int output);
 }

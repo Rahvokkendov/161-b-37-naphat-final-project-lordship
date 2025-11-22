@@ -3,12 +3,8 @@ using UnityEngine;
 
 public class House : Buildings
 {
-   
-    public void Start()
+    public override int BuildingOutput(int output)
     {
-        base.Init("House", 100, 10, 10, 80);
+       return output + TaxOutput;
     }
-
-
-   
 }
