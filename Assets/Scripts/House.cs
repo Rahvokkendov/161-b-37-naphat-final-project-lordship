@@ -3,8 +3,15 @@ using UnityEngine;
 
 public class House : Buildings
 {
-    public override int BuildingOutput(int output)
+    public override void BuildingOutput()
     {
-       return output + TaxOutput;
+        base.BuildingOutput();
+        if (CurrentBuild > 0)
+        {
+            for (int i = 0; i < CurrentBuild; i++)
+            {
+                ResourceManager.Instance.Food -= 10;
+            }
+        }
     }
 }

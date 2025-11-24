@@ -3,18 +3,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public int gold = 0;
-    public int food = 0;
     [field: SerializeField] protected List<Buildings> listBuilding = new List<Buildings>();
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log($"Current Gold : {gold}");
-        listBuilding[0].Init("House", 100, 10, 10, 80);
         
-        gold = listBuilding[0].BuildingOutput(gold);
-        Debug.Log($"Current Gold : {gold}");
+        listBuilding[0].Init("House", 100, 10, 10, 80);
+        listBuilding[1].Init("Farm", 300, 20, 9, 40);
+        listBuilding[0].Build();
+        listBuilding[1].Build();
     }
 
     // Update is called once per frame
@@ -23,8 +21,18 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {   
             listBuilding[0].Build();
-            listBuilding[0].DebugShow();
-            
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            listBuilding[1].Build();
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            foreach (Buildings building in listBuilding)
+            {
+                building.BuildingOutput();
+                building.DebugShow();
+            }
         }
     }
 }
