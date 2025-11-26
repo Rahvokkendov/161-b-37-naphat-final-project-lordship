@@ -1,16 +1,13 @@
 using UnityEngine;
 
-public class Granary : MonoBehaviour
+public class Granary : Buildings
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void BuildingOutput()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        base.BuildingOutput();
+        if (CurrentBuild > 0)
+        {
+            ResourceManager.Instance.Food += 20;
+        }
     }
 }

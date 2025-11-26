@@ -5,9 +5,9 @@ public class ResourceManager : MonoBehaviour
     public static ResourceManager Instance;
 
 
-    public int Gold = 1000;
+    public int Gold;
    
-    public int Food = 50;
+    public int Food;
 
     private void Awake()
     {

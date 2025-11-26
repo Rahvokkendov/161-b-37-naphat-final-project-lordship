@@ -11,10 +11,12 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] protected List<Buildings> listBuilding = new List<Buildings>();
     [field: SerializeField] protected List<TextMeshProUGUI> textMeshes = new List<TextMeshProUGUI>();
     [field: SerializeField] protected AudioSource buildingPop;
+    [field: SerializeField] protected GameObject restartCanvas;
     private int day = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        restartCanvas.SetActive(false);
         AllBuildingInit();
         listBuilding[0].Build();
         listBuilding[1].Build();
@@ -32,14 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void ButtonCheck()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            listBuilding[0].Build();
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            listBuilding[1].Build();
-        }
+      
         if (Input.GetKeyDown(KeyCode.Space))
         {
             day++;
@@ -71,8 +66,15 @@ public class GameManager : MonoBehaviour
     {
         if(ResourceManager.Instance.Food < 0 || day > 30)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            restartCanvas.SetActive(true);
         }
+    }
+
+    //Method for Restart
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        restartCanvas.SetActive(false);
     }
 
 

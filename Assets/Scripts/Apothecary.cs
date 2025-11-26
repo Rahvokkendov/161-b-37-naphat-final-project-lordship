@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class Apothecary : MonoBehaviour
+public class Apothecary : Buildings
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void BuildingOutput()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        base.BuildingOutput();
+        if (CurrentBuild > 0)
+        {
+            for (int i = 0; i < CurrentBuild; i++)
+            {
+                ResourceManager.Instance.Food -= 5;
+            }
+        }
     }
 }
