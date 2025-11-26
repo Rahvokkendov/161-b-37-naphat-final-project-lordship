@@ -11,12 +11,14 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] protected List<Buildings> listBuilding = new List<Buildings>();
     [field: SerializeField] protected List<TextMeshProUGUI> textMeshes = new List<TextMeshProUGUI>();
     [field: SerializeField] protected AudioSource buildingPop;
-    [field: SerializeField] protected GameObject restartCanvas;
+    [field: SerializeField] protected List<GameObject> restartCanvas = new List<GameObject>();
     private int day = 0;
+    private int essentialBuit = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        restartCanvas.SetActive(false);
+        restartCanvas[0].SetActive(false);
+        restartCanvas[1].SetActive(false);
         AllBuildingInit();
         listBuilding[0].Build();
         listBuilding[1].Build();
@@ -29,7 +31,8 @@ public class GameManager : MonoBehaviour
         textMeshes[1].text = $"{ResourceManager.Instance.Food}";
         textMeshes[2].text = $"Days {day}/30";
         ButtonCheck();
-        LoseChech();
+        LoseCheck();
+        WinCheck();
     }
 
     public void ButtonCheck()
@@ -43,6 +46,7 @@ public class GameManager : MonoBehaviour
             {
                 building.BuildingOutput();
                 building.DebugShow();
+                Debug.Log($"Essentail Built {essentialBuit}");
             }
 
             
@@ -62,11 +66,23 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void LoseChech()
+    public void LoseCheck()
     {
         if(ResourceManager.Instance.Food < 0 || day > 30)
         {
-            restartCanvas.SetActive(true);
+            restartCanvas[0].SetActive(true);
+            
+
+        }
+    }
+
+    public void WinCheck()
+    {
+        if (ResourceManager.Instance.Food >= 1000 && ResourceManager.Instance.Gold >= 5000 && essentialBuit == 4)
+        {
+            
+            restartCanvas[1].SetActive(true);
+
         }
     }
 
@@ -74,7 +90,7 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        restartCanvas.SetActive(false);
+        
     }
 
 
@@ -98,21 +114,25 @@ public class GameManager : MonoBehaviour
     {
         listBuilding[3].Build();
         buildingPop.Play();
+        essentialBuit += 1;
     }
     public void ApothecaryBuildButton()
     {
         listBuilding[4].Build();
         buildingPop.Play();
+        essentialBuit += 1;
     }
     public void BarrackBuildButton()
     {
         listBuilding[5].Build();
         buildingPop.Play();
+        essentialBuit += 1;
     }
     public void CastleBuildButton()
     {
         listBuilding[6].Build();
         buildingPop.Play();
+        essentialBuit += 1;
     }
 
 }

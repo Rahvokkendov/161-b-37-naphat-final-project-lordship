@@ -10,4 +10,5 @@ public class Granary : Buildings
             ResourceManager.Instance.Food += 20;
         }
     }
+   
 }

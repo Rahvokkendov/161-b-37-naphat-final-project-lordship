@@ -175,5 +175,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b718014413a3e6e4886bc80fbfcc3772, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnParent: {fileID: 7214539837271210736, guid: 3ce628e18d96aff4e8b50e55fba93c7a, type: 3}
+  spawnParent: {fileID: 907936014502998025, guid: c500064150781074898779172c91f956, type: 3}
   buildingPrefab: {fileID: 6032367187158386520}
