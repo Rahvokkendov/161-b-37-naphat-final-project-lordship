@@ -10,12 +10,12 @@ public class GameManager : MonoBehaviour
 {
     [field: SerializeField] protected List<Buildings> listBuilding = new List<Buildings>();
     [field: SerializeField] protected List<TextMeshProUGUI> textMeshes = new List<TextMeshProUGUI>();
+    [field: SerializeField] protected AudioSource buildingPop;
     private int day = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        listBuilding[0].Init("House", 100, 10, 10, 80);
-        listBuilding[1].Init("Farm", 300, 20, 9, 40);
+        AllBuildingInit();
         listBuilding[0].Build();
         listBuilding[1].Build();
     }
@@ -55,9 +55,21 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void AllBuildingInit()
+    {
+        listBuilding[0].Init("House", 100, 10, 10, 80);
+        listBuilding[1].Init("Farm", 300, 20, 9, 40);
+        listBuilding[2].Init("Mine", 500, 50, 6, 200);
+        listBuilding[3].Init("Granary", 200, 10, 1, 80);
+        listBuilding[4].Init("Apothecary", 500, 20, 1, 100);
+        listBuilding[5].Init("Barrack", 500, 20, 1, 200);
+        listBuilding[6].Init("Castle", 2000, 100, 1, 1000);
+    }
+
+
     public void LoseChech()
     {
-        if(ResourceManager.Instance.Food < 0 || day == 30)
+        if(ResourceManager.Instance.Food < 0 || day > 30)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -68,30 +80,37 @@ public class GameManager : MonoBehaviour
     public void HouseBuildButton()
     {
         listBuilding[0].Build();
+        buildingPop.Play();
     }
     public void FarmBuildButton()
     {
         listBuilding[1].Build();
+        buildingPop.Play();
     }
     public void MineBuildButton()
     {
         listBuilding[2].Build();
+        buildingPop.Play();
     }
     public void GranaryBuildButton()
     {
         listBuilding[3].Build();
+        buildingPop.Play();
     }
     public void ApothecaryBuildButton()
     {
         listBuilding[4].Build();
+        buildingPop.Play();
     }
     public void BarrackBuildButton()
     {
         listBuilding[5].Build();
+        buildingPop.Play();
     }
     public void CastleBuildButton()
     {
         listBuilding[6].Build();
+        buildingPop.Play();
     }
 
 }

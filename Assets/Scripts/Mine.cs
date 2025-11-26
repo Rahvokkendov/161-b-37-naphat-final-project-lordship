@@ -1,16 +1,9 @@
 using UnityEngine;
 
-public class Mine : MonoBehaviour
+public class Mine : Buildings
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void BuildingOutput()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        base.BuildingOutput();
     }
 }
