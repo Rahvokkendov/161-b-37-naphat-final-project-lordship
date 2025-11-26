@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1002276636917540854}
   - component: {fileID: 584484843935215878}
   - component: {fileID: 2311089582270233433}
+  - component: {fileID: 5234588357858258187}
   m_Layer: 0
   m_Name: Barrack
   m_TagString: Untagged
@@ -162,3 +163,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5234588357858258187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293547669305257029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc87baf30ab17f4aaccadcf7c97926a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
