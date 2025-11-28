@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     {
         restartCanvas[0].SetActive(false);
         restartCanvas[1].SetActive(false);
+        restartCanvas[2].SetActive(false);
         AllBuildingInit();
         listBuilding[0].Build();
         listBuilding[1].Build();
@@ -51,6 +52,10 @@ public class GameManager : MonoBehaviour
 
             
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            restartCanvas[2].SetActive(true);
+        }
 
     }
 
@@ -78,7 +83,7 @@ public class GameManager : MonoBehaviour
 
     public void WinCheck()
     {
-        if (ResourceManager.Instance.Food >= 1000 && ResourceManager.Instance.Gold >= 5000 && essentialBuit == 4)
+        if (ResourceManager.Instance.Food > 1000 && ResourceManager.Instance.Gold > 5000 && essentialBuit >= 4)
         {
             
             restartCanvas[1].SetActive(true);
@@ -86,11 +91,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Method for Restart
+    //Methods for Buttons
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+        buildingPop.Play();
+    }
+
+    public void Resume()
+    {
+        restartCanvas[2].SetActive(false);
+        buildingPop.Play();
     }
 
 

@@ -15,4 +15,5 @@ public class MainMenuScript : MonoBehaviour
         Application.Quit();
         clickPop.Play();
     }
+
 }
